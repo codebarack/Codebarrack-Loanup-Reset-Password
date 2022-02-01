@@ -10,7 +10,6 @@
 }
 
 html {
-  /*font-size: 10px*/
   font-size: 64.5%;
 }
 
@@ -20,10 +19,7 @@ body {
 }
 
 main {
-  display: grid;
-  grid-template-rows: var(--layout-grid);
-  grid-gap: var(--layout-grid-gutter);
-  margin-inline: var(--layout-grid-margin);
+  margin-inline: var(--layout-margin);
 }
 
 ul {
@@ -35,5 +31,5 @@ a {
 }
 
 #main-header__navigation {
-  margin-inline: var(--layout-grid-margin);
+  margin-inline: var(--layout-margin);
 }

@@ -12,38 +12,13 @@
 
   /* grid */
   --layout-width: 1440px;
-  --layout-grid: repeat(12, 1fr);
-  --layout-grid-gutter: 16px;
-  --layout-grid-margin: 80px;
-}
+  --layout-margin: 80px;
 
-/* fonts */
-.font-36px-bold {
-  font-weight: bold;
-  font-size: 3.6rem;
-  line-height: 1;
-}
-
-.font-17px-bold {
-  font-weight: bold;
-  font-size: 1.7rem;
-  line-height: 24px;
-}
-
-.font-17px-md {
-  font-size: 1.7rem;
-  line-height: 24px;
-  font-weight: normal;
-}
-
-.font-15px-bold {
-  font-weight: bold;
-  line-height: 20px;
-  font-size: 1.5rem;
-}
-
-.font-15px-rg {
-  font-size: 1.5rem;
-  line-height: 20px;
-  font-weight: 400;
+  /* */
+  --font-lg: 3.6rem;
+  --font-lg-lh: 1;
+  --font-md: 1.7rem;
+  --font-md-lh: 24px;
+  --font-sm: 1.5rem;
+  --font-sm-lh: 20px;
 }
