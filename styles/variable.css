@@ -10,11 +10,18 @@
   --dark-grey-2: #878797;
   --dark-grey-3: #b8b5d4;
 
+  /* button colour */
+  --tertiary-bt-bg: var(--light-grey-2);
+  --tertiary-bt-text-colour: var(--primary-colour);
+
+  --primary-bt-bg: var(--primary-colour);
+  --primary-bt-text-colour: var(--white);
+
   /* grid */
   --layout-width: 1440px;
   --layout-margin: 80px;
 
-  /* */
+  /* font*/
   --font-lg: 3.6rem;
   --font-lg-lh: 1;
   --font-md: 1.7rem;

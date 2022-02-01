@@ -28,6 +28,28 @@ ul {
 
 a {
   text-decoration: none;
+  line-height: 24px;
+}
+
+.tertiary--button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiary-bt-text-colour);
+  background-color: var(--tertiary-bt-bg);
+  width: 148px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.primary--button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-bt-bg);
+  height: 64px;
+  border-radius: 12px;
+  color: var(--primary-bt-text-colour);
 }
 
 #main-header__navigation {
