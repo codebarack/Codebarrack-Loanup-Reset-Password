@@ -33,3 +33,15 @@ a {
 #main-header__navigation {
   margin-inline: var(--layout-margin);
 }
+
+.resest-option__checkMark {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: auto;
+  background-color: var(--primary-colour);
+}
