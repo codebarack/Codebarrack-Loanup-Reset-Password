@@ -1,0 +1,39 @@
+@import url(./variable.css);
+@import url(./font.css);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*font-size: 10px*/
+  font-size: 64.5%;
+}
+
+body {
+  font-family: 'DMSans', sans-serif;
+  max-width: var(--layout-width);
+}
+
+main {
+  display: grid;
+  grid-template-rows: var(--layout-grid);
+  grid-gap: var(--layout-grid-gutter);
+  margin-inline: var(--layout-grid-margin);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main-header__navigation {
+  margin-inline: var(--layout-grid-margin);
+}

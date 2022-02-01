@@ -1,0 +1,49 @@
+:root {
+  /* color*/
+  --white: #ffffff;
+  --primary-color: #5a00d3;
+
+  --light-grey-1: #d5d0ff;
+  --light-grey-2: #f5f4fc;
+
+  --dark-grey-1: #1d1937;
+  --dark-grey-2: #878797;
+  --dark-grey-3: #b8b5d4;
+
+  /* grid */
+  --layout-width: 1440px;
+  --layout-grid: repeat(12, 1fr);
+  --layout-grid-gutter: 16px;
+  --layout-grid-margin: 80px;
+}
+
+/* fonts */
+.font-36px-bold {
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 1;
+}
+
+.font-17px-bold {
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 24px;
+}
+
+.font-17px-md {
+  font-size: 1.7rem;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.font-15px-bold {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 1.5rem;
+}
+
+.font-15px-rg {
+  font-size: 1.5rem;
+  line-height: 20px;
+  font-weight: 400;
+}
